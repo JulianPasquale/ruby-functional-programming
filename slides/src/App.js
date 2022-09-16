@@ -29,7 +29,11 @@ function App() {
 
       <slides.Agenda />
 
-      <slides.FPBasis />
+      <slides.Introduction />
+
+      <slides.HOAndFirstClass />
+
+      <slides.Closures />
     </div>
   );
 }
