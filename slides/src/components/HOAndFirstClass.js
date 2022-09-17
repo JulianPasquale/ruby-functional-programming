@@ -18,10 +18,6 @@ function HOAndFirstClass() {
           Higher-order functions are functions that can either take other functions as arguments
           or return them as results.
         </p>
-
-        <p className="text-gray-600 text-3xl text-left">
-          Higher-order functions enable partial application or currying.
-        </p>
       </section>
 
       <section>
@@ -49,17 +45,6 @@ function HOAndFirstClass() {
         <p className="text-gray-600 text-3xl text-left">
           Ruby blocks are little anonymous functions that can be passed into methods.
         </p>
-
-        <aside className="notes">
-          <p>
-            Blocks have some limitations:
-          </p>
-
-          <ul>
-            <li>We cannot return blocks</li>
-            <li>We cannot pass more than one block to functions</li>
-          </ul>
-        </aside>
 
         <pre>
           <code data-trim data-noescape className="language-ruby">
@@ -151,8 +136,8 @@ function HOAndFirstClass() {
         <pre>
           <code data-trim data-noescape className="language-ruby">
             {`
-              square = lambda {|x| x**2 }
-              square2 = ->(x) { x**2 }
+              square = lambda { |x| x**2 }
+              square2 = ->(x) { x ** 2 }
 
               square.call(3)  #=> 9
               square2.call(3)  #=> 9

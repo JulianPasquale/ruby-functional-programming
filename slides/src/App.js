@@ -34,6 +34,8 @@ function App() {
       <slides.HOAndFirstClass />
 
       <slides.Closures />
+
+      <slides.ReferencialTransparency />
     </div>
   );
 }

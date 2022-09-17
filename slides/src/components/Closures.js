@@ -24,10 +24,6 @@ function Closures() {
           with an environment which have impact on this function during the declaration
           process.
         </p>
-
-        <p className="text-gray-600 text-3xl text-left">
-          This is one of the ways to generate new functions by using the function
-        </p>
       </section>
 
       <section>

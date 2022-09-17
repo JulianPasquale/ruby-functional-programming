@@ -42,10 +42,6 @@ function Introduction() {
           <li>Higher-order and first-class functions</li>
           <li>Closures</li>
           <li>Referential transparency</li>
-          <li>Immutability</li>
-          <li>Pure functions (no side-effects)</li>
-          <li>Idempotence</li>
-          <li>No state (no implicit, hidden data)</li>
           <li>Currying and function partial application</li>
           <li>Recursion</li>
           <li>Lazy evaluation (non-strict evaluation)</li>
