@@ -46,9 +46,9 @@ function Introduction() {
           <li>
             Referential transparency
             <ul className="text-xl">
+              <li>Idempotency</li>
               <li>Immutability</li>
               <li>Pure functions</li>
-              <li>Idempotency</li>
             </ul>
           </li>
 

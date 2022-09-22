@@ -31,6 +31,19 @@ function ReferencialTransparency() {
           whereby they can be applied multiple times without changing the result
           beyond the initial application.
         </p>
+
+        <pre>
+          <code data-trim data-noescape className="language-ruby">
+            {`
+              def two_times(num)
+                num * 2
+              end
+
+              two_times(2) # => 4
+              two_times(2) # => 4
+            `}
+          </code>
+        </pre>
       </section>
 
       <section>
@@ -42,17 +55,46 @@ function ReferencialTransparency() {
           Functions are pure functions in the mathematical sense:
           the output depends only on the received inputs, not the environment.
         </p>
+
+        <pre>
+          <code data-trim data-noescape className="language-ruby">
+            {`
+              def add(a, b)
+                a + b
+              end
+            `}
+          </code>
+        </pre>
       </section>
 
       <section>
         <p className="font-extrabold text-green-600 text-3xl">
-          Side effects
+          Immutability and Side effects
+        </p>
+
+        <p className="text-gray-600 text-3xl text-left">
+          Immutability means unable to change.
         </p>
 
         <p className="text-gray-600 text-3xl text-left">
           An expression is said to have a side effect if it modifies
           some state variable value(s) outside its local environment.
         </p>
+
+        <pre>
+          <code data-trim data-noescape className="language-ruby">
+            {`
+              arr = [1, 2, 3]
+              arr # => [1, 2, 3]
+
+              arr.map { |num| num + 1 } # => [2, 3, 4]
+              arr # => [1, 2, 3]
+
+              arr.map! { |num| num + 1 } # => [2, 3, 4]
+              arr # => [2, 3, 4]
+            `}
+          </code>
+        </pre>
       </section>
 
       <section>
