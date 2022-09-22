@@ -40,11 +40,28 @@ function Introduction() {
 
         <ul className="text-gray-600 text-3xl space-y-3 text-left">
           <li>Higher-order and first-class functions</li>
+
           <li>Closures</li>
-          <li>Referential transparency</li>
+
+          <li>
+            Referential transparency
+            <ul className="text-xl">
+              <li>Immutability</li>
+              <li>Pure functions</li>
+              <li>Idempotency</li>
+            </ul>
+          </li>
+
           <li>Currying and function partial application</li>
-          <li>Recursion</li>
-          <li>Lazy evaluation (non-strict evaluation)</li>
+
+          <li>
+            Recursion
+            <ul className="text-xl">
+              <li>Tail call optimization</li>
+            </ul>
+          </li>
+
+          <li>Lazy evaluation</li>
         </ul>
       </section>
     </section>
