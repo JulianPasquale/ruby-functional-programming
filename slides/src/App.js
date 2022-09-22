@@ -36,6 +36,8 @@ function App() {
       <slides.Closures />
 
       <slides.ReferencialTransparency />
+
+      <slides.Currying />
     </div>
   );
 }
