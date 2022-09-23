@@ -40,6 +40,8 @@ function App() {
       <slides.Currying />
 
       <slides.Recursion />
+
+      <slides.LazyEvaluation />
     </div>
   );
 }
