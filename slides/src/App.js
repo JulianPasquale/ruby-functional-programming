@@ -38,6 +38,8 @@ function App() {
       <slides.ReferencialTransparency />
 
       <slides.Currying />
+
+      <slides.Recursion />
     </div>
   );
 }

@@ -5,3 +5,4 @@ export { default as HOAndFirstClass } from './HOAndFirstClass';
 export { default as Closures } from './Closures';
 export { default as ReferencialTransparency } from './ReferencialTransparency';
 export { default as Currying } from './Currying';
+export { default as Recursion } from './Recursion';

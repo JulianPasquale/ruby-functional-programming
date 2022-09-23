@@ -5,13 +5,13 @@ function Introduction() {
     <section>
       <section>
         <p className="font-extrabold text-green-800 text-6xl">
-          Functional Programming Basis
+          Functional Programming
         </p>
       </section>
 
       <section>
         <p className="font-extrabold text-green-800 text-5xl">
-          Functional Programming Basis
+          Functional Programming
         </p>
 
         <p className="text-gray-600 text-3xl">
