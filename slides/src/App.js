@@ -31,6 +31,8 @@ function App() {
 
       <slides.Introduction />
 
+      <slides.RealLifeScenario />
+
       <slides.HOAndFirstClass />
 
       <slides.Closures />
