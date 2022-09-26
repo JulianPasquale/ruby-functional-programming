@@ -14,5 +14,14 @@ api_fetch = -> page_number do
   (pagination_options >> get_data >> parse_response).call(page_number)
 end
 
-puts api_fetch.call(1)
-puts api_fetch.call(2)
+current_page = 1
+next_page_available = true
+
+while next_page_available
+  response = api_fetch.call(current_page)
+  
+  puts response
+
+  next_page_available = response[:next]
+  current_page += 1
+end

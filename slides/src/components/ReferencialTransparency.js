@@ -166,6 +166,12 @@ function ReferencialTransparency() {
           </code>
         </pre>
       </section>
+
+      <section>
+        <p className="font-extrabold text-green-800 text-6xl">
+          Analyse previous examples
+        </p>
+      </section>
     </section>
   );
 }

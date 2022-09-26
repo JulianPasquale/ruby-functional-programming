@@ -8,3 +8,6 @@ export { default as ReferencialTransparency } from './ReferencialTransparency';
 export { default as Currying } from './Currying';
 export { default as Recursion } from './Recursion';
 export { default as LazyEvaluation } from './LazyEvaluation';
+export { default as ProsAndCons } from './ProsAndCons';
+export { default as WrappingUp } from './WrappingUp';
+export { default as Final } from './Final';

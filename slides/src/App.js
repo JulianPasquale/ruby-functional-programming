@@ -44,6 +44,12 @@ function App() {
       <slides.Recursion />
 
       <slides.LazyEvaluation />
+
+      <slides.ProsAndCons />
+
+      <slides.WrappingUp />
+
+      <slides.Final />
     </div>
   );
 }

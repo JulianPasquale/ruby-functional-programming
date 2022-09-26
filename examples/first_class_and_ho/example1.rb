@@ -4,8 +4,10 @@ require 'json'
 
 api_fetch = -> url do
   -> page_number do
+    response = HTTParty.get(url, { query: { page: page_number }, format: :json })
+
     JSON.parse(
-      HTTParty.get(url, { query: { page: page_number }, format: :json }).body,
+      response.body,
       symbolize_names: true
     )
   end
@@ -15,5 +17,14 @@ URL = 'https://swapi.dev/api/people'
 
 start_wars_api = api_fetch.call(URL)
 
-puts start_wars_api.call(1)
-puts start_wars_api.call(2)
+current_page = 1
+next_page_available = true
+
+while next_page_available
+  response = start_wars_api.call(current_page)
+  
+  puts response
+
+  next_page_available = response[:next]
+  current_page += 1
+end

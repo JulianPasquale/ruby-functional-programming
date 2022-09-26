@@ -70,6 +70,12 @@ function Recursion() {
           </code>
         </pre>
       </section>
+
+      <section>
+        <p className="font-extrabold text-green-800 text-6xl">
+          Example
+        </p>
+      </section>
     </section>
   );
 }
