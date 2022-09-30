@@ -31,11 +31,25 @@ function App() {
 
       <slides.Introduction />
 
+      <slides.RealLifeScenario />
+
       <slides.HOAndFirstClass />
 
       <slides.Closures />
 
+      <slides.Currying />
+
       <slides.ReferencialTransparency />
+
+      <slides.Recursion />
+
+      <slides.LazyEvaluation />
+
+      <slides.ProsAndCons />
+
+      <slides.WrappingUp />
+
+      <slides.Final />
     </div>
   );
 }

@@ -1,6 +1,13 @@
 export { default as CoverPage } from './CoverPage';
 export { default as Agenda } from './Agenda';
 export { default as Introduction } from './Introduction';
+export { default as RealLifeScenario } from './RealLifeScenario';
 export { default as HOAndFirstClass } from './HOAndFirstClass';
 export { default as Closures } from './Closures';
 export { default as ReferencialTransparency } from './ReferencialTransparency';
+export { default as Currying } from './Currying';
+export { default as Recursion } from './Recursion';
+export { default as LazyEvaluation } from './LazyEvaluation';
+export { default as ProsAndCons } from './ProsAndCons';
+export { default as WrappingUp } from './WrappingUp';
+export { default as Final } from './Final';

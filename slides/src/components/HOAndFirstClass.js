@@ -88,7 +88,7 @@ function HOAndFirstClass() {
             {`
               square = Proc.new { |x| x ** 2 }
 
-              square.call(3)  #=> 9
+              square.call(3) #=> 9
             `}
           </code>
         </pre>
@@ -136,7 +136,7 @@ function HOAndFirstClass() {
         <pre>
           <code data-trim data-noescape className="language-ruby">
             {`
-              square = lambda { |x| x**2 }
+              square = lambda { |x| x ** 2 }
               square2 = ->(x) { x ** 2 }
 
               square.call(3)  #=> 9
@@ -144,6 +144,12 @@ function HOAndFirstClass() {
             `}
           </code>
         </pre>
+      </section>
+
+      <section>
+        <p className="font-extrabold text-green-800 text-6xl">
+          Example
+        </p>
       </section>
     </section>
   );

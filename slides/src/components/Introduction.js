@@ -5,13 +5,13 @@ function Introduction() {
     <section>
       <section>
         <p className="font-extrabold text-green-800 text-6xl">
-          Functional Programming Basis
+          Functional Programming
         </p>
       </section>
 
       <section>
         <p className="font-extrabold text-green-800 text-5xl">
-          Functional Programming Basis
+          Functional Programming
         </p>
 
         <p className="text-gray-600 text-3xl">
@@ -40,11 +40,28 @@ function Introduction() {
 
         <ul className="text-gray-600 text-3xl space-y-3 text-left">
           <li>Higher-order and first-class functions</li>
+
           <li>Closures</li>
-          <li>Referential transparency</li>
+
           <li>Currying and function partial application</li>
-          <li>Recursion</li>
-          <li>Lazy evaluation (non-strict evaluation)</li>
+
+          <li>
+            Referential transparency
+            <ul className="text-xl">
+              <li>Idempotency</li>
+              <li>Immutability</li>
+              <li>Pure functions</li>
+            </ul>
+          </li>
+
+          <li>
+            Recursion
+            <ul className="text-xl">
+              <li>Tail call optimization</li>
+            </ul>
+          </li>
+
+          <li>Lazy evaluation</li>
         </ul>
       </section>
     </section>

@@ -9,8 +9,8 @@ function Agenda() {
 
       <ol className="text-gray-600 text-3xl space-y-6">
         <li>Functional programming basis</li>
-        <li>Pros and cons</li>
         <li>&quot;Real-life&quot; examples</li>
+        <li>Pros and cons</li>
         <li>Q&A</li>
       </ol>
     </section>
