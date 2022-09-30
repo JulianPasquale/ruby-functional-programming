@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1546757a.css",
+    "main.js": "/static/js/main.3dae5bf8.js",
+    "static/media/league-gothic.ttf": "/static/media/league-gothic.6ae9138268fe16d7ac7a.ttf",
+    "static/media/league-gothic.woff": "/static/media/league-gothic.080eee2aba44573fce6d.woff",
+    "static/media/league-gothic.eot": "/static/media/league-gothic.12baac5d377da4eb8880.eot",
+    "index.html": "/index.html",
+    "main.1546757a.css.map": "/static/css/main.1546757a.css.map",
+    "main.3dae5bf8.js.map": "/static/js/main.3dae5bf8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1546757a.css",
+    "static/js/main.3dae5bf8.js"
+  ]
+}
