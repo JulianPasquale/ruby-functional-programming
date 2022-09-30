@@ -43,6 +43,8 @@ function Introduction() {
 
           <li>Closures</li>
 
+          <li>Currying and function partial application</li>
+
           <li>
             Referential transparency
             <ul className="text-xl">
@@ -51,8 +53,6 @@ function Introduction() {
               <li>Pure functions</li>
             </ul>
           </li>
-
-          <li>Currying and function partial application</li>
 
           <li>
             Recursion

@@ -23,7 +23,7 @@ function RealLifeScenario() {
         </p>
 
         <p className="text-gray-600 text-3xl">
-          <a href="https://swapi.dev/">Start Wars API</a>
+          <a href="https://swapi.dev/">Star Wars API</a>
         </p>
       </section>
     </section>

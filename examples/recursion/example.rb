@@ -18,14 +18,20 @@ URL = 'https://swapi.dev/api/people'
 
 start_wars_api = api_fetch.call(URL)
 
-current_page = 1
-next_page_available = true
+process_pages = -> api, callback, initial_page_number = 1 do
+  result = api.call(initial_page_number)
 
-while next_page_available
-  response = start_wars_api.call(current_page)
-  
-  puts response
+  callback.call(result)
 
-  next_page_available = response[:next]
-  current_page += 1
+  return unless result[:next]
+
+  process_pages.call(api, callback, initial_page_number + 1)
 end
+
+process_response = -> response do
+  response[:results].each do |elem|
+    puts "Processed #{elem[:name]}"
+  end
+end
+
+process_pages.call(start_wars_api, process_response, 1)
