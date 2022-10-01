@@ -58,8 +58,14 @@ function Currying() {
 
       <section>
         <p className="font-extrabold text-green-800 text-6xl">
-          Example
+          Examples:
         </p>
+
+        <ul className="text-gray-600 text-3xl space-y-3 text-left">
+          <li>
+            <b>04_curry</b>
+          </li>
+        </ul>
       </section>
     </section>
   );
