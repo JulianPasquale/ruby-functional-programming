@@ -14,9 +14,9 @@ end
 
 URL = 'https://swapi.dev/api/people'
 
-start_wars_api = api_fetch.call(URL)
+star_wars_api = api_fetch.call(URL)
 
-paginated_starwars_request = (start_wars_api << pagination_options) >> parse_response
+paginated_starwars_request = (star_wars_api << pagination_options) >> parse_response
 
 current_page = 1
 next_page_available = true

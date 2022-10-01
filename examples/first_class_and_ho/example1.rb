@@ -15,13 +15,13 @@ end
 
 URL = 'https://swapi.dev/api/people'
 
-start_wars_api = api_fetch.call(URL)
+star_wars_api = api_fetch.call(URL)
 
 current_page = 1
 next_page_available = true
 
 while next_page_available
-  response = start_wars_api.call(current_page)
+  response = star_wars_api.call(current_page)
   
   puts response
 

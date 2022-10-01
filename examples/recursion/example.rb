@@ -16,7 +16,7 @@ end
 
 URL = 'https://swapi.dev/api/people'
 
-start_wars_api = api_fetch.call(URL)
+star_wars_api = api_fetch.call(URL)
 
 process_pages = -> api, callback, initial_page_number = 1 do
   result = api.call(initial_page_number)
@@ -34,4 +34,4 @@ process_response = -> response do
   end
 end
 
-process_pages.call(start_wars_api, process_response, 1)
+process_pages.call(star_wars_api, process_response, 1)
