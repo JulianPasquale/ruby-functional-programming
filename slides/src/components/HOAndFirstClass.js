@@ -148,8 +148,17 @@ function HOAndFirstClass() {
 
       <section>
         <p className="font-extrabold text-green-800 text-6xl">
-          Example
+          Examples:
         </p>
+
+        <ul className="text-gray-600 text-3xl space-y-3 text-left">
+          <li>
+            <b>01_high_order_functions</b>
+          </li>
+          <li>
+            <b>02_function_composition</b>
+          </li>
+        </ul>
       </section>
     </section>
   );
