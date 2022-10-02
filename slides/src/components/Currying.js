@@ -48,9 +48,11 @@ function Currying() {
 
               curried_multiply.call(2, 2)
 
-              double = curried_multiply.curry[2]
-              
+              double = curried_multiply[2]
               double.call(2)
+
+              triple = curried_multiply.call(3)
+              triple.call(3)
             `}
           </code>
         </pre>

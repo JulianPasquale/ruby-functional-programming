@@ -46,14 +46,8 @@ function WrappingUp() {
           </li>
 
           <li>
-            <a href="https://womanonrails.com/functional-programming-ruby">
-              womanonrails - Functional programming in Ruby
-            </a>
-          </li>
-
-          <li>
-            <a href="https://www.rubyguides.com/2018/01/functional-programming-ruby/">
-              Ruby guides - Functional Programming In Ruby
+            <a href="https://github.com/JulianPasquale/ruby-functional-programming">
+              Slides + code examples
             </a>
           </li>
         </ul>
