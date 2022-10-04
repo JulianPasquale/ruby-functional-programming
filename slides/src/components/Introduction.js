@@ -35,7 +35,7 @@ function Introduction() {
 
       <section>
         <p className="font-extrabold text-green-800 text-5xl">
-          Functional Programming Basis
+          Functional Programming
         </p>
 
         <ul className="text-gray-600 text-3xl space-y-3 text-left">

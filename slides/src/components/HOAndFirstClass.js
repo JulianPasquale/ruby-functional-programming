@@ -15,7 +15,7 @@ function HOAndFirstClass() {
         </p>
 
         <p className="text-gray-600 text-3xl text-left">
-          Higher-order functions are functions that can either take other functions as arguments
+          High-order functions are functions that can either take other functions as arguments
           or return them as results.
         </p>
       </section>
