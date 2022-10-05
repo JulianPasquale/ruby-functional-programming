@@ -21,6 +21,7 @@
 - [Proc#compose and Enumerator#chain - Brandon Weaver](https://medium.com/@baweaver/exploring-ruby-2-6-proc-compose-and-enumerator-chain-49f10e237542)
 
 ## Closures
+- [Closures - Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
 - [Functional Programming in Ruby — Closures - Brandon Weaver](https://medium.com/@baweaver/functional-programming-in-ruby-closures-ac80547eb40d)
 - [Closures in Ruby - geeksforgeeks](https://www.geeksforgeeks.org/closures-in-ruby/)
 - [Ruby Blocks Simplified - Julianna Roen from Gusto](https://engineering.gusto.com/ruby-blocks-simplified/)
