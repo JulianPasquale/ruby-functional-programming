@@ -8,6 +8,7 @@
 
 ## Articles
 - [Functional programming - Wikipedia](https://en.wikipedia.org/wiki/Functional_programming)
+- [Functional Programming Paradigm - geeksforgeeks](https://www.geeksforgeeks.org/functional-programming-paradigm/)
 - [Functional Programming In Ruby- Ruby guides](https://www.rubyguides.com/2018/01/functional-programming-ruby/)
 - [Functional programming in Ruby - womanonrails](https://womanonrails.com/functional-programming-ruby)
 
