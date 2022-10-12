@@ -16,13 +16,16 @@ function Closures() {
 
         <p className="text-gray-600 text-3xl text-left">
           A closure is the combination of a function bundled together (enclosed)
-          with references to its surrounding state (the lexical environment)
+          with references to its surrounding state (the lexical environment).
         </p>
 
         <p className="text-gray-600 text-3xl text-left">
-          Closure is a technique for creating a function based on another function
-          with an environment which have impact on this function during the declaration
-          process.
+          A closure gives you access to an
+          outer function&apos;s scope from an inner function.
+        </p>
+
+        <p className="text-gray-600 text-3xl text-left">
+          Blocks are Ruby&apos;s version of closures
         </p>
 
         <pre>

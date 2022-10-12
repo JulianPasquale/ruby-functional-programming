@@ -8,6 +8,7 @@
 
 ## Articles
 - [Functional programming - Wikipedia](https://en.wikipedia.org/wiki/Functional_programming)
+- [Functional Programming Paradigm - geeksforgeeks](https://www.geeksforgeeks.org/functional-programming-paradigm/)
 - [Functional Programming In Ruby- Ruby guides](https://www.rubyguides.com/2018/01/functional-programming-ruby/)
 - [Functional programming in Ruby - womanonrails](https://womanonrails.com/functional-programming-ruby)
 
@@ -21,6 +22,7 @@
 - [Proc#compose and Enumerator#chain - Brandon Weaver](https://medium.com/@baweaver/exploring-ruby-2-6-proc-compose-and-enumerator-chain-49f10e237542)
 
 ## Closures
+- [Closures - Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
 - [Functional Programming in Ruby — Closures - Brandon Weaver](https://medium.com/@baweaver/functional-programming-in-ruby-closures-ac80547eb40d)
 - [Closures in Ruby - geeksforgeeks](https://www.geeksforgeeks.org/closures-in-ruby/)
 - [Ruby Blocks Simplified - Julianna Roen from Gusto](https://engineering.gusto.com/ruby-blocks-simplified/)

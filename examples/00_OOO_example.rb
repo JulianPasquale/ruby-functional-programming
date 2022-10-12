@@ -40,8 +40,8 @@ star_wars_api = APIService.new(URL)
 
 current_page = 1
 
-while next_page_available
-  # A specific page response
+loop do
+  # A specific page response.
   response = star_wars_api.call(current_page)
   
   puts response
