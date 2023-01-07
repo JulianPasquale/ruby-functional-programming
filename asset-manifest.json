@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/ruby-functional-programming/static/css/main.e3cae9c2.css",
-    "main.js": "/ruby-functional-programming/static/js/main.0752218e.js",
-    "static/media/league-gothic.ttf": "/ruby-functional-programming/static/media/league-gothic.6ae9138268fe16d7ac7a.ttf",
-    "static/media/league-gothic.woff": "/ruby-functional-programming/static/media/league-gothic.080eee2aba44573fce6d.woff",
-    "static/media/league-gothic.eot": "/ruby-functional-programming/static/media/league-gothic.12baac5d377da4eb8880.eot",
+    "main.css": "/ruby-functional-programming/static/css/main.e891ab92.css",
+    "main.js": "/ruby-functional-programming/static/js/main.667f17f6.js",
     "index.html": "/ruby-functional-programming/index.html",
-    "main.e3cae9c2.css.map": "/ruby-functional-programming/static/css/main.e3cae9c2.css.map",
-    "main.0752218e.js.map": "/ruby-functional-programming/static/js/main.0752218e.js.map"
+    "main.e891ab92.css.map": "/ruby-functional-programming/static/css/main.e891ab92.css.map",
+    "main.667f17f6.js.map": "/ruby-functional-programming/static/js/main.667f17f6.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3cae9c2.css",
-    "static/js/main.0752218e.js"
+    "static/css/main.e891ab92.css",
+    "static/js/main.667f17f6.js"
   ]
 }
