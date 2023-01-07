@@ -3,9 +3,7 @@ import React from 'react';
 function Final() {
   return (
     <section>
-      <p className="font-extrabold text-6xl">
-        Q&A
-      </p>
+      <h3>Q&A</h3>
     </section>
   );
 }

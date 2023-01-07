@@ -4,15 +4,11 @@ function Introduction() {
   return (
     <section>
       <section>
-        <p className="font-extrabold text-6xl">
-          Functional Programming
-        </p>
+        <h3>Functional Programming</h3>
       </section>
 
       <section>
-        <p className="font-extrabold text-5xl">
-          Functional Programming
-        </p>
+        <h3>Functional Programming</h3>
 
         <p className="text-3xl">
           <a href="htt<ps://en.wikipedia.org/wiki/Functional_programming">
@@ -33,9 +29,7 @@ function Introduction() {
       </section>
 
       <section>
-        <p className="font-extrabold text-5xl">
-          Functional Programming
-        </p>
+        <h3>Functional Programming</h3>
 
         <ul className="text-3xl space-y-3 text-left">
           <li>Higher-order and first-class functions</li>

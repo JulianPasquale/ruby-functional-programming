@@ -4,15 +4,11 @@ function WrappingUp() {
   return (
     <section>
       <section>
-        <p className="font-extrabold text-6xl">
-          Wrapping Up
-        </p>
+        <h3>Wrapping Up</h3>
       </section>
 
       <section>
-        <p className="font-extrabold text-5xl">
-          Review concepts
-        </p>
+        <h4>Reviewed concepts</h4>
 
         <ul className="text-3xl space-y-3 text-left">
           <li>Higher-order and first-class functions</li>
@@ -34,9 +30,7 @@ function WrappingUp() {
       </section>
 
       <section>
-        <p className="font-extrabold text-5xl">
-          Links
-        </p>
+        <h4>Links</h4>
 
         <ul className="text-3xl space-y-3 text-left">
           <li>

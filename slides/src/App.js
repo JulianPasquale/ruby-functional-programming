@@ -22,7 +22,7 @@ import * as slides from './components';
 function App() {
   useEffect(() => {
     Reveal.initialize({
-      hash: false,
+      hash: true,
       controls: true,
       progress: true,
       center: true,

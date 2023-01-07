@@ -4,15 +4,11 @@ function Closures() {
   return (
     <section>
       <section>
-        <p className="font-extrabold text-6xl">
-          Closures
-        </p>
+        <h3>Closures</h3>
       </section>
 
       <section>
-        <p className="font-extrabold text-3xl">
-          Closures
-        </p>
+        <h4>Closures</h4>
 
         <p className="text-3xl text-left">
           A closure is the combination of a function bundled together (enclosed)
@@ -43,9 +39,30 @@ function Closures() {
       </section>
 
       <section>
-        <p className="font-extrabold text-6xl">
-          Examples:
+        <h4>Closures</h4>
+
+        <p className="text-3xl text-left">
+          In Rails, we usually do
         </p>
+
+        <pre>
+          <code data-trim data-noescape className="language-ruby">
+            {`
+              def index
+                @posts = Post.all
+        
+                respond_to do |format|
+                  format.html  # index.html.erb
+                  format.json  { render :json => @posts }
+                end
+              end
+            `}
+          </code>
+        </pre>
+      </section>
+
+      <section>
+        <h4>Examples</h4>
 
         <ul className="text-3xl space-y-3 text-left">
           <li>

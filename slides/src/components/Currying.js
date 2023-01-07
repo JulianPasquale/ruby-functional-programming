@@ -4,15 +4,11 @@ function Currying() {
   return (
     <section>
       <section>
-        <p className="font-extrabold text-6xl">
-          Currying and function partial application
-        </p>
+        <h4>Currying and function partial application</h4>
       </section>
 
       <section>
-        <p className="font-extrabold text-3xl">
-          Currying
-        </p>
+        <h4>Currying and function partial application</h4>
 
         <p className="text-3xl text-left">
           Currying is the technique of converting a function that takes multiple
@@ -35,9 +31,7 @@ function Currying() {
       </section>
 
       <section>
-        <p className="font-extrabold text-3xl">
-          Partial application
-        </p>
+        <h4>Partial application</h4>
 
         <pre>
           <code data-trim data-noescape className="language-ruby">
@@ -59,9 +53,7 @@ function Currying() {
       </section>
 
       <section>
-        <p className="font-extrabold text-6xl">
-          Examples:
-        </p>
+        <h4>Examples:</h4>
 
         <ul className="text-3xl space-y-3 text-left">
           <li>

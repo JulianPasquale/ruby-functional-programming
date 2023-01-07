@@ -4,15 +4,11 @@ function Recursion() {
   return (
     <section>
       <section>
-        <p className="font-extrabold text-6xl">
-          Recursion
-        </p>
+        <h3>Recursion</h3>
       </section>
 
       <section>
-        <p className="font-extrabold text-3xl">
-          Recursion
-        </p>
+        <h4>Recursion</h4>
 
         <p className="text-3xl text-left">
           The act of a function calling itself.
@@ -32,9 +28,7 @@ function Recursion() {
       </section>
 
       <section>
-        <p className="font-extrabold text-3xl">
-          Recursion - Tail call recursive
-        </p>
+        <h4>Recursion - Tail call recursive</h4>
 
         <p className="text-3xl text-left">
           In a tail call recursive function, the last line of the function
@@ -55,9 +49,7 @@ function Recursion() {
       </section>
 
       <section>
-        <p className="font-extrabold text-3xl">
-          Recursion - Tail call optimization
-        </p>
+        <h4>Recursion - Tail call recursive</h4>
 
         <pre>
           <code data-trim data-noescape className="language-ruby">
@@ -72,9 +64,7 @@ function Recursion() {
       </section>
 
       <section>
-        <p className="font-extrabold text-6xl">
-          Examples:
-        </p>
+        <h4>Examples:</h4>
 
         <ul className="text-3xl space-y-3 text-left">
           <li>

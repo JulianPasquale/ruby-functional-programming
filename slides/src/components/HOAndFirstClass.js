@@ -4,15 +4,11 @@ function HOAndFirstClass() {
   return (
     <section>
       <section>
-        <p className="font-extrabold text-6xl">
-          High-order and First class functions
-        </p>
+        <h4>High-order and First class functions</h4>
       </section>
 
       <section>
-        <p className="font-extrabold text-4xl">
-          Higher-order functions
-        </p>
+        <h4>High-order functions</h4>
 
         <p className="text-3xl text-left">
           High-order functions are functions that can either take other functions as arguments
@@ -21,9 +17,7 @@ function HOAndFirstClass() {
       </section>
 
       <section>
-        <p className="font-extrabold text-4xl">
-          First class functions
-        </p>
+        <h4>First class functions</h4>
 
         <p className="text-3xl text-left">
           A programming language is said to have first-class functions if
@@ -38,9 +32,7 @@ function HOAndFirstClass() {
       </section>
 
       <section>
-        <p className="font-extrabold text-4xl">
-          Blocks
-        </p>
+        <h4>Blocks</h4>
 
         <p className="text-3xl text-left">
           Ruby blocks are little anonymous functions that can be passed into methods.
@@ -69,9 +61,7 @@ function HOAndFirstClass() {
       </section>
 
       <section>
-        <p className="font-extrabold text-4xl">
-          Procs
-        </p>
+        <h4>Procs</h4>
 
         <p className="text-3xl text-left">
           A Proc object is an encapsulation of a block of code,
@@ -95,9 +85,7 @@ function HOAndFirstClass() {
       </section>
 
       <section>
-        <p className="font-extrabold text-4xl">
-          Lambdas
-        </p>
+        <h4>Lambdas</h4>
 
         <p className="text-3xl text-left">
           Lambdas are useful as self-sufficient functions, in particular useful
@@ -147,9 +135,7 @@ function HOAndFirstClass() {
       </section>
 
       <section>
-        <p className="font-extrabold text-6xl">
-          Examples:
-        </p>
+        <h4>Examples</h4>
 
         <ul className="text-3xl space-y-3 text-left">
           <li>
