@@ -23,9 +23,9 @@ function WrappingUp() {
 
           <li>Lazy evaluation</li>
 
-          <li className="text-gray-300">Pattern matching</li>
+          <li className="text-gray-500">Pattern matching</li>
 
-          <li className="text-gray-300">Memoization</li>
+          <li className="text-gray-500">Memoization</li>
         </ul>
       </section>
 
