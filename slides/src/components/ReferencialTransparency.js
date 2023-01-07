@@ -4,17 +4,17 @@ function ReferencialTransparency() {
   return (
     <section>
       <section>
-        <p className="font-extrabold text-green-800 text-6xl">
+        <p className="font-extrabold text-6xl">
           Referencial Transparency
         </p>
       </section>
 
       <section>
-        <p className="font-extrabold text-green-600 text-3xl">
+        <p className="font-extrabold text-3xl">
           Referencial Transparency
         </p>
 
-        <p className="text-gray-600 text-3xl text-left">
+        <p className="text-3xl text-left">
           An expression is called referentially transparent if it can be replaced
           with its corresponding value (and vice-versa) without changing
           the program&apos;s behavior.
@@ -22,11 +22,11 @@ function ReferencialTransparency() {
       </section>
 
       <section>
-        <p className="font-extrabold text-green-600 text-3xl">
+        <p className="font-extrabold text-3xl">
           Idempotency
         </p>
 
-        <p className="text-gray-600 text-3xl text-left">
+        <p className="text-3xl text-left">
           It is the property of certain operations in mathematics and computer science
           whereby they can be applied multiple times without changing the result
           beyond the initial application.
@@ -47,11 +47,11 @@ function ReferencialTransparency() {
       </section>
 
       <section>
-        <p className="font-extrabold text-green-600 text-3xl">
+        <p className="font-extrabold text-3xl">
           Pure functions
         </p>
 
-        <p className="text-gray-600 text-3xl text-left">
+        <p className="text-3xl text-left">
           Functions are pure functions in the mathematical sense:
           the output depends only on the received inputs, not the environment.
         </p>
@@ -68,15 +68,15 @@ function ReferencialTransparency() {
       </section>
 
       <section>
-        <p className="font-extrabold text-green-600 text-3xl">
+        <p className="font-extrabold text-3xl">
           Immutability and Side effects
         </p>
 
-        <p className="text-gray-600 text-3xl text-left">
+        <p className="text-3xl text-left">
           Immutability means unable to change.
         </p>
 
-        <p className="text-gray-600 text-3xl text-left">
+        <p className="text-3xl text-left">
           An expression is said to have a side effect if it modifies
           some state variable value(s) outside its local environment.
         </p>
@@ -98,7 +98,7 @@ function ReferencialTransparency() {
       </section>
 
       <section>
-        <p className="font-extrabold text-green-600 text-3xl">
+        <p className="font-extrabold text-3xl">
           Example
         </p>
 
@@ -124,7 +124,7 @@ function ReferencialTransparency() {
       </section>
 
       <section>
-        <p className="font-extrabold text-green-600 text-3xl">
+        <p className="font-extrabold text-3xl">
           Example
         </p>
 
@@ -143,7 +143,7 @@ function ReferencialTransparency() {
       </section>
 
       <section>
-        <p className="font-extrabold text-green-600 text-3xl">
+        <p className="font-extrabold text-3xl">
           Example
         </p>
 
@@ -168,11 +168,11 @@ function ReferencialTransparency() {
       </section>
 
       <section>
-        <p className="font-extrabold text-green-800 text-6xl">
+        <p className="font-extrabold text-6xl">
           Review previous examples:
         </p>
 
-        <ul className="text-gray-600 text-3xl space-y-3 text-left">
+        <ul className="text-3xl space-y-3 text-left">
           <li>
             <b>01_high_order_functions</b>
           </li>

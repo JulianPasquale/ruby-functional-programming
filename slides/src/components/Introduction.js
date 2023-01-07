@@ -4,28 +4,28 @@ function Introduction() {
   return (
     <section>
       <section>
-        <p className="font-extrabold text-green-800 text-6xl">
+        <p className="font-extrabold text-6xl">
           Functional Programming
         </p>
       </section>
 
       <section>
-        <p className="font-extrabold text-green-800 text-5xl">
+        <p className="font-extrabold text-5xl">
           Functional Programming
         </p>
 
-        <p className="text-gray-600 text-3xl">
+        <p className="text-3xl">
           <a href="htt<ps://en.wikipedia.org/wiki/Functional_programming">
             Wikipedia:
           </a>
         </p>
 
-        <p className="text-gray-600 text-3xl text-left">
+        <p className="text-3xl text-left">
           Functional programming is a programming paradigm where programs are
           constructed by applying and composing functions.
         </p>
 
-        <p className="text-gray-600 text-3xl text-left">
+        <p className="text-3xl text-left">
           It is a declarative type of programming style. Its main focus is on
           “what to solve” in contrast to an imperative style where
           the main focus is “how to solve”.
@@ -33,11 +33,11 @@ function Introduction() {
       </section>
 
       <section>
-        <p className="font-extrabold text-green-800 text-5xl">
+        <p className="font-extrabold text-5xl">
           Functional Programming
         </p>
 
-        <ul className="text-gray-600 text-3xl space-y-3 text-left">
+        <ul className="text-3xl space-y-3 text-left">
           <li>Higher-order and first-class functions</li>
 
           <li>Closures</li>

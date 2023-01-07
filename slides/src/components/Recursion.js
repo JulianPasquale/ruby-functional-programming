@@ -4,17 +4,17 @@ function Recursion() {
   return (
     <section>
       <section>
-        <p className="font-extrabold text-green-800 text-6xl">
+        <p className="font-extrabold text-6xl">
           Recursion
         </p>
       </section>
 
       <section>
-        <p className="font-extrabold text-green-600 text-3xl">
+        <p className="font-extrabold text-3xl">
           Recursion
         </p>
 
-        <p className="text-gray-600 text-3xl text-left">
+        <p className="text-3xl text-left">
           The act of a function calling itself.
         </p>
 
@@ -32,11 +32,11 @@ function Recursion() {
       </section>
 
       <section>
-        <p className="font-extrabold text-green-600 text-3xl">
+        <p className="font-extrabold text-3xl">
           Recursion - Tail call recursive
         </p>
 
-        <p className="text-gray-600 text-3xl text-left">
+        <p className="text-3xl text-left">
           In a tail call recursive function, the last line of the function
           is the one that calls to the function itself.
         </p>
@@ -55,7 +55,7 @@ function Recursion() {
       </section>
 
       <section>
-        <p className="font-extrabold text-green-600 text-3xl">
+        <p className="font-extrabold text-3xl">
           Recursion - Tail call optimization
         </p>
 
@@ -72,11 +72,11 @@ function Recursion() {
       </section>
 
       <section>
-        <p className="font-extrabold text-green-800 text-6xl">
+        <p className="font-extrabold text-6xl">
           Examples:
         </p>
 
-        <ul className="text-gray-600 text-3xl space-y-3 text-left">
+        <ul className="text-3xl space-y-3 text-left">
           <li>
             <b>05_recursion</b>
           </li>

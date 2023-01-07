@@ -4,17 +4,17 @@ function Currying() {
   return (
     <section>
       <section>
-        <p className="font-extrabold text-green-800 text-6xl">
+        <p className="font-extrabold text-6xl">
           Currying and function partial application
         </p>
       </section>
 
       <section>
-        <p className="font-extrabold text-green-600 text-3xl">
+        <p className="font-extrabold text-3xl">
           Currying
         </p>
 
-        <p className="text-gray-600 text-3xl text-left">
+        <p className="text-3xl text-left">
           Currying is the technique of converting a function that takes multiple
           arguments into a sequence of functions that each takes a single argument.
         </p>
@@ -35,7 +35,7 @@ function Currying() {
       </section>
 
       <section>
-        <p className="font-extrabold text-green-600 text-3xl">
+        <p className="font-extrabold text-3xl">
           Partial application
         </p>
 
@@ -59,11 +59,11 @@ function Currying() {
       </section>
 
       <section>
-        <p className="font-extrabold text-green-800 text-6xl">
+        <p className="font-extrabold text-6xl">
           Examples:
         </p>
 
-        <ul className="text-gray-600 text-3xl space-y-3 text-left">
+        <ul className="text-3xl space-y-3 text-left">
           <li>
             <b>04_curry</b>
           </li>
