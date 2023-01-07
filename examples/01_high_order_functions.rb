@@ -28,7 +28,7 @@ current_page = 1
 loop do
   # A specific page response.
   response = star_wars_api.call(current_page)
-  
+
   puts response
 
   # If response[:next] is nil, there are no more pages to proccess.
