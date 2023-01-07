@@ -19,18 +19,18 @@ end
 # lambda that process one page.
 # api: lambda to call for making requests.
 # initial_page_numer: the "current_page" number.
-# callback: block that will be called for each page.
-process_pages = -> api, initial_page_number = 1, &callback do
+# block: block that will be called for each page.
+process_pages = -> api, initial_page_number = 1, &block do
   # A specific page response.
   response = api.call(initial_page_number)
 
   # Process the response.
-  callback.call(response)
+  block.call(response)
 
   return unless response[:next]
 
   # Recursive call to process the next page.
-  process_pages.call(api, initial_page_number + 1, &callback)
+  process_pages.call(api, initial_page_number + 1, &block)
 end
 
 # Usage:

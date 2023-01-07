@@ -4,17 +4,13 @@ function ProsAndCons() {
   return (
     <section>
       <section>
-        <p className="font-extrabold text-green-800 text-6xl">
-          Pros and Cons
-        </p>
+        <h3>Pros and Cons</h3>
       </section>
 
       <section>
-        <p className="font-extrabold text-green-800 text-5xl">
-          Pros
-        </p>
+        <h4>Pros</h4>
 
-        <ul className="text-gray-600 text-3xl space-y-3 text-left">
+        <ul className="text-3xl space-y-3 text-left">
           <li>Pure functions are easy to test</li>
 
           <li>
@@ -28,11 +24,9 @@ function ProsAndCons() {
       </section>
 
       <section>
-        <p className="font-extrabold text-green-800 text-5xl">
-          Cons
-        </p>
+        <h4>Cons</h4>
 
-        <ul className="text-gray-600 text-3xl space-y-3 text-left">
+        <ul className="text-3xl space-y-3 text-left">
           <li>For many people, recursion doesn&apos;t feel natural</li>
 
           <li>Dev responsibility</li>

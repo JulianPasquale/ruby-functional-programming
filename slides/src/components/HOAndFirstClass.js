@@ -4,33 +4,27 @@ function HOAndFirstClass() {
   return (
     <section>
       <section>
-        <p className="font-extrabold text-green-800 text-6xl">
-          High-order and First class functions
-        </p>
+        <h4>High-order and First class functions</h4>
       </section>
 
       <section>
-        <p className="font-extrabold text-green-800 text-4xl">
-          Higher-order functions
-        </p>
+        <h4>High-order functions</h4>
 
-        <p className="text-gray-600 text-3xl text-left">
+        <p className="text-3xl text-left">
           High-order functions are functions that can either take other functions as arguments
           or return them as results.
         </p>
       </section>
 
       <section>
-        <p className="font-extrabold text-green-800 text-4xl">
-          First class functions
-        </p>
+        <h4>First class functions</h4>
 
-        <p className="text-gray-600 text-3xl text-left">
+        <p className="text-3xl text-left">
           A programming language is said to have first-class functions if
           it treats functions as first-class citizens.
         </p>
 
-        <p className="text-gray-600 text-3xl text-left">
+        <p className="text-3xl text-left">
           It means that it should support passing functions as arguments to other functions,
           returning them as the values from other functions,
           and assigning them to variables or storing them in data structures.
@@ -38,11 +32,9 @@ function HOAndFirstClass() {
       </section>
 
       <section>
-        <p className="font-extrabold text-green-800 text-4xl">
-          Blocks
-        </p>
+        <h4>Blocks</h4>
 
-        <p className="text-gray-600 text-3xl text-left">
+        <p className="text-3xl text-left">
           Ruby blocks are little anonymous functions that can be passed into methods.
         </p>
 
@@ -69,17 +61,15 @@ function HOAndFirstClass() {
       </section>
 
       <section>
-        <p className="font-extrabold text-green-800 text-4xl">
-          Procs
-        </p>
+        <h4>Procs</h4>
 
-        <p className="text-gray-600 text-3xl text-left">
+        <p className="text-3xl text-left">
           A Proc object is an encapsulation of a block of code,
           which can be stored in a local variable, passed to a method or another Proc,
           and can be called.
         </p>
 
-        <p className="text-gray-600 text-3xl text-left">
+        <p className="text-3xl text-left">
           Proc is an essential concept in Ruby and a core of its functional programming features.
         </p>
 
@@ -95,11 +85,9 @@ function HOAndFirstClass() {
       </section>
 
       <section>
-        <p className="font-extrabold text-green-800 text-4xl">
-          Lambdas
-        </p>
+        <h4>Lambdas</h4>
 
-        <p className="text-gray-600 text-3xl text-left">
+        <p className="text-3xl text-left">
           Lambdas are useful as self-sufficient functions, in particular useful
           as arguments to higher-order functions, behaving exactly like Ruby methods.
         </p>
@@ -147,11 +135,9 @@ function HOAndFirstClass() {
       </section>
 
       <section>
-        <p className="font-extrabold text-green-800 text-6xl">
-          Examples:
-        </p>
+        <h4>Examples</h4>
 
-        <ul className="text-gray-600 text-3xl space-y-3 text-left">
+        <ul className="text-3xl space-y-3 text-left">
           <li>
             <b>01_high_order_functions</b>
           </li>

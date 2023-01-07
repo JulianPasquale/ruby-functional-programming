@@ -1,13 +1,13 @@
 {
   "name": "functional-programming-ruby",
   "version": "0.1.0",
-  "private": false,
   "homepage": "https://julianpasquale.github.io/ruby-functional-programming",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "reveal.js": "^4.3.1"
+    "reveal.js": "^4.3.1",
+    "sass": "^1.55.0"
   },
   "scripts": {
     "start": "react-scripts start",

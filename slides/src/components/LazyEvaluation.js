@@ -4,17 +4,41 @@ function LazyEvaluation() {
   return (
     <section>
       <section>
-        <p className="font-extrabold text-green-800 text-6xl">
-          Lazy Evaluation
-        </p>
+        <h3>Lazy Evaluation</h3>
       </section>
 
       <section>
-        <p className="font-extrabold text-green-600 text-3xl">
-          Lazy Evaluation
+        <h4>Ruby Enumerator</h4>
+
+        <p className="text-3xl text-left">
+          A class which allows both internal and external iteration.
         </p>
 
-        <p className="text-gray-600 text-3xl text-left">
+        <p className="text-3xl text-left">
+          Enumerators allow to chain multiple methods.
+        </p>
+
+        <pre>
+          <code data-trim data-noescape className="language-ruby">
+            {`
+              fib = Enumerator.new do |yielder|
+                a = b = 1
+                loop do
+                  yielder << a
+                  a, b = b, a + b
+                end
+              end
+              
+              p fib.take(10) # => [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+            `}
+          </code>
+        </pre>
+      </section>
+
+      <section>
+        <h4>Lazy Evaluation</h4>
+
+        <p className="text-3xl text-left">
           Lazy evaluation or call-by-need, is an evaluation strategy which delays
           the evaluation of an expression until its value is needed
           and which also avoids repeated evaluations
@@ -25,18 +49,18 @@ function LazyEvaluation() {
             {`
               (1..).select(&:odd?) # This will take forever
 
-              (1..).lazy.select(&:odd?)
+              lazy_enum = (1..).lazy.select(&:odd?)
+
+              another_lazy_enum = (1..).lazy.select(&:odd?).take_while { |num| num < 20 }
             `}
           </code>
         </pre>
       </section>
 
       <section>
-        <p className="font-extrabold text-green-800 text-6xl">
-          Examples:
-        </p>
+        <h4>Examples:</h4>
 
-        <ul className="text-gray-600 text-3xl space-y-3 text-left">
+        <ul className="text-3xl space-y-3 text-left">
           <li>
             <b>06_lazy_evaluation</b>
           </li>

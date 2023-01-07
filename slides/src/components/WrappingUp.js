@@ -4,17 +4,13 @@ function WrappingUp() {
   return (
     <section>
       <section>
-        <p className="font-extrabold text-green-800 text-6xl">
-          Wrapping Up
-        </p>
+        <h3>Wrapping Up</h3>
       </section>
 
       <section>
-        <p className="font-extrabold text-green-800 text-5xl">
-          Review concepts
-        </p>
+        <h4>Reviewed concepts</h4>
 
-        <ul className="text-gray-600 text-3xl space-y-3 text-left">
+        <ul className="text-3xl space-y-3 text-left">
           <li>Higher-order and first-class functions</li>
 
           <li>Closures</li>
@@ -27,18 +23,16 @@ function WrappingUp() {
 
           <li>Lazy evaluation</li>
 
-          <li className="text-gray-300">Pattern matching</li>
+          <li className="text-gray-500">Pattern matching</li>
 
-          <li className="text-gray-300">Memoization</li>
+          <li className="text-gray-500">Memoization</li>
         </ul>
       </section>
 
       <section>
-        <p className="font-extrabold text-green-800 text-5xl">
-          Links
-        </p>
+        <h4>Links</h4>
 
-        <ul className="text-gray-600 text-3xl space-y-3 text-left">
+        <ul className="text-3xl space-y-3 text-left">
           <li>
             <a href="https://www.youtube.com/watch?v=BV1-Z38ZWQU">
               RubyConf 2019 - The Functional Rubyist by Joe Leo

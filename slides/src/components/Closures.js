@@ -4,27 +4,23 @@ function Closures() {
   return (
     <section>
       <section>
-        <p className="font-extrabold text-green-800 text-6xl">
-          Closures
-        </p>
+        <h3>Closures</h3>
       </section>
 
       <section>
-        <p className="font-extrabold text-green-600 text-3xl">
-          Closures
-        </p>
+        <h4>Closures</h4>
 
-        <p className="text-gray-600 text-3xl text-left">
+        <p className="text-3xl text-left">
           A closure is the combination of a function bundled together (enclosed)
           with references to its surrounding state (the lexical environment).
         </p>
 
-        <p className="text-gray-600 text-3xl text-left">
+        <p className="text-3xl text-left">
           A closure gives you access to an
           outer function&apos;s scope from an inner function.
         </p>
 
-        <p className="text-gray-600 text-3xl text-left">
+        <p className="text-3xl text-left">
           Blocks are Ruby&apos;s version of closures
         </p>
 
@@ -43,11 +39,32 @@ function Closures() {
       </section>
 
       <section>
-        <p className="font-extrabold text-green-800 text-6xl">
-          Examples:
+        <h4>Closures</h4>
+
+        <p className="text-3xl text-left">
+          In Rails, we usually do
         </p>
 
-        <ul className="text-gray-600 text-3xl space-y-3 text-left">
+        <pre>
+          <code data-trim data-noescape className="language-ruby">
+            {`
+              def index
+                @posts = Post.all
+        
+                respond_to do |format|
+                  format.html  # index.html.erb
+                  format.json  { render :json => @posts }
+                end
+              end
+            `}
+          </code>
+        </pre>
+      </section>
+
+      <section>
+        <h4>Examples</h4>
+
+        <ul className="text-3xl space-y-3 text-left">
           <li>
             <b>03_closures</b>
           </li>

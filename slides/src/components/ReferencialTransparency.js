@@ -4,17 +4,13 @@ function ReferencialTransparency() {
   return (
     <section>
       <section>
-        <p className="font-extrabold text-green-800 text-6xl">
-          Referencial Transparency
-        </p>
+        <h3>Referencial Transparency</h3>
       </section>
 
       <section>
-        <p className="font-extrabold text-green-600 text-3xl">
-          Referencial Transparency
-        </p>
+        <h4>Referencial Transparency</h4>
 
-        <p className="text-gray-600 text-3xl text-left">
+        <p className="text-3xl text-left">
           An expression is called referentially transparent if it can be replaced
           with its corresponding value (and vice-versa) without changing
           the program&apos;s behavior.
@@ -22,11 +18,9 @@ function ReferencialTransparency() {
       </section>
 
       <section>
-        <p className="font-extrabold text-green-600 text-3xl">
-          Idempotency
-        </p>
+        <h4>Idempotency</h4>
 
-        <p className="text-gray-600 text-3xl text-left">
+        <p className="text-3xl text-left">
           It is the property of certain operations in mathematics and computer science
           whereby they can be applied multiple times without changing the result
           beyond the initial application.
@@ -47,11 +41,9 @@ function ReferencialTransparency() {
       </section>
 
       <section>
-        <p className="font-extrabold text-green-600 text-3xl">
-          Pure functions
-        </p>
+        <h4>Pure functions</h4>
 
-        <p className="text-gray-600 text-3xl text-left">
+        <p className="text-3xl text-left">
           Functions are pure functions in the mathematical sense:
           the output depends only on the received inputs, not the environment.
         </p>
@@ -68,15 +60,13 @@ function ReferencialTransparency() {
       </section>
 
       <section>
-        <p className="font-extrabold text-green-600 text-3xl">
-          Immutability and Side effects
-        </p>
+        <h4>Immutability and Side effects</h4>
 
-        <p className="text-gray-600 text-3xl text-left">
+        <p className="text-3xl text-left">
           Immutability means unable to change.
         </p>
 
-        <p className="text-gray-600 text-3xl text-left">
+        <p className="text-3xl text-left">
           An expression is said to have a side effect if it modifies
           some state variable value(s) outside its local environment.
         </p>
@@ -98,9 +88,7 @@ function ReferencialTransparency() {
       </section>
 
       <section>
-        <p className="font-extrabold text-green-600 text-3xl">
-          Example
-        </p>
+        <h4>Example</h4>
 
         <pre>
           <code data-trim data-noescape className="language-ruby">
@@ -124,9 +112,7 @@ function ReferencialTransparency() {
       </section>
 
       <section>
-        <p className="font-extrabold text-green-600 text-3xl">
-          Example
-        </p>
+        <h4>Example</h4>
 
         <pre>
           <code data-trim data-noescape className="language-ruby">
@@ -143,9 +129,7 @@ function ReferencialTransparency() {
       </section>
 
       <section>
-        <p className="font-extrabold text-green-600 text-3xl">
-          Example
-        </p>
+        <h4>Example</h4>
 
         <pre>
           <code data-trim data-noescape className="language-ruby">
@@ -165,27 +149,6 @@ function ReferencialTransparency() {
             `}
           </code>
         </pre>
-      </section>
-
-      <section>
-        <p className="font-extrabold text-green-800 text-6xl">
-          Review previous examples:
-        </p>
-
-        <ul className="text-gray-600 text-3xl space-y-3 text-left">
-          <li>
-            <b>01_high_order_functions</b>
-          </li>
-          <li>
-            <b>02_function_composition</b>
-          </li>
-          <li>
-            <b>03_closures</b>
-          </li>
-          <li>
-            <b>04_curry</b>
-          </li>
-        </ul>
       </section>
     </section>
   );
