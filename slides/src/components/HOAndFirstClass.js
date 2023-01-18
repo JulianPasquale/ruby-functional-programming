@@ -81,7 +81,7 @@ function HOAndFirstClass() {
             {`
               square = Proc.new { |x| x ** 2 }
 
-              puts(square.call(3))
+              puts square.call(3)
             `}
           </code>
         </pre>
@@ -132,8 +132,8 @@ function HOAndFirstClass() {
               square = lambda { |x| x ** 2 }
               square2 = ->(x) { x ** 2 }
 
-              puts(square.call(3))
-              puts(square2.call(3))
+              puts square.call(3)
+              puts square2.call(3)
             `}
           </code>
         </pre>

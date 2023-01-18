@@ -1,4 +1,5 @@
 import React from 'react';
+import RunButton from './ruby/RunButton';
 
 function Closures() {
   return (
@@ -25,7 +26,7 @@ function Closures() {
         </p>
 
         <pre>
-          <code data-trim data-noescape className="language-ruby">
+          <code data-trim data-noescape className="language-ruby" id="closures">
             {`
               def multiple(m)
                 -> n { n * m }
@@ -33,9 +34,14 @@ function Closures() {
               
               double = multiple(2)
               triple = multiple(3)
+
+              puts double.call(2)
+              puts triple.call(2)
             `}
           </code>
         </pre>
+
+        <RunButton domSelector="#closures" />
       </section>
 
       <section>
