@@ -1,4 +1,5 @@
 import React from 'react';
+import RunButton from './ruby/RunButton';
 
 function HOAndFirstClass() {
   return (
@@ -39,7 +40,7 @@ function HOAndFirstClass() {
         </p>
 
         <pre>
-          <code data-trim data-noescape className="language-ruby">
+          <code data-trim data-noescape className="language-ruby" id="greetings">
             {`
               def greetings
                 puts "hello"
@@ -58,6 +59,8 @@ function HOAndFirstClass() {
             `}
           </code>
         </pre>
+
+        <RunButton domSelector="#greetings" />
       </section>
 
       <section>
@@ -74,7 +77,7 @@ function HOAndFirstClass() {
         </p>
 
         <pre>
-          <code data-trim data-noescape className="language-ruby">
+          <code data-trim data-noescape className="language-ruby" id="procs">
             {`
               square = Proc.new { |x| x ** 2 }
 
@@ -82,6 +85,8 @@ function HOAndFirstClass() {
             `}
           </code>
         </pre>
+
+        <RunButton domSelector="#procs" />
       </section>
 
       <section>

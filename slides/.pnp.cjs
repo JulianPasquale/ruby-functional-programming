@@ -42,6 +42,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react", "virtual:2e0bf4bcdd4d80b7119dfaab23df10f6cbe6273b1d1b6d9dd5f628ed45204603cbb0c06519f829256b914794109c2e8b18d6b37f25d4576368d542b731c7b16a#npm:7.31.8"],\
             ["eslint-plugin-react-hooks", "virtual:2e0bf4bcdd4d80b7119dfaab23df10f6cbe6273b1d1b6d9dd5f628ed45204603cbb0c06519f829256b914794109c2e8b18d6b37f25d4576368d542b731c7b16a#npm:4.6.0"],\
             ["postcss", "npm:8.4.16"],\
+            ["prop-types", "npm:15.8.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:2e0bf4bcdd4d80b7119dfaab23df10f6cbe6273b1d1b6d9dd5f628ed45204603cbb0c06519f829256b914794109c2e8b18d6b37f25d4576368d542b731c7b16a#npm:18.2.0"],\
             ["react-scripts", "virtual:2e0bf4bcdd4d80b7119dfaab23df10f6cbe6273b1d1b6d9dd5f628ed45204603cbb0c06519f829256b914794109c2e8b18d6b37f25d4576368d542b731c7b16a#npm:5.0.1"],\
@@ -8842,6 +8843,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react", "virtual:2e0bf4bcdd4d80b7119dfaab23df10f6cbe6273b1d1b6d9dd5f628ed45204603cbb0c06519f829256b914794109c2e8b18d6b37f25d4576368d542b731c7b16a#npm:7.31.8"],\
             ["eslint-plugin-react-hooks", "virtual:2e0bf4bcdd4d80b7119dfaab23df10f6cbe6273b1d1b6d9dd5f628ed45204603cbb0c06519f829256b914794109c2e8b18d6b37f25d4576368d542b731c7b16a#npm:4.6.0"],\
             ["postcss", "npm:8.4.16"],\
+            ["prop-types", "npm:15.8.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:2e0bf4bcdd4d80b7119dfaab23df10f6cbe6273b1d1b6d9dd5f628ed45204603cbb0c06519f829256b914794109c2e8b18d6b37f25d4576368d542b731c7b16a#npm:18.2.0"],\
             ["react-scripts", "virtual:2e0bf4bcdd4d80b7119dfaab23df10f6cbe6273b1d1b6d9dd5f628ed45204603cbb0c06519f829256b914794109c2e8b18d6b37f25d4576368d542b731c7b16a#npm:5.0.1"],\
