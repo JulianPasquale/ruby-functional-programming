@@ -23,6 +23,9 @@ function Recursion() {
 
                 n * factorial(n-1)
               end
+
+              puts factorial(5)
+              puts factorial(10000)
             `}
           </code>
         </pre>
@@ -46,6 +49,9 @@ function Recursion() {
 
                 factorial(n - 1, acc * n)
               end
+
+              puts factorial(5)
+              puts factorial(10000)
             `}
           </code>
         </pre>
@@ -57,7 +63,7 @@ function Recursion() {
         <h4>Recursion - Tail call recursive</h4>
 
         <pre>
-          <code data-trim data-noescape className="language-ruby">
+          <code data-trim data-noescape className="language-ruby" id="tail-call-optimization">
             {`
               RubyVM::InstructionSequence.compile_option = {
                 tailcall_optimization: true,
@@ -66,6 +72,8 @@ function Recursion() {
             `}
           </code>
         </pre>
+
+        <RunButton domSelector="#tail-call-optimization" />
       </section>
 
       <section>
