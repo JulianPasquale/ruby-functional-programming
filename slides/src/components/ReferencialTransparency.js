@@ -1,4 +1,5 @@
 import React from 'react';
+import RunButton from './ruby/RunButton';
 
 function ReferencialTransparency() {
   return (
@@ -27,17 +28,19 @@ function ReferencialTransparency() {
         </p>
 
         <pre>
-          <code data-trim data-noescape className="language-ruby">
+          <code data-trim data-noescape className="language-ruby" id="idempotency">
             {`
               def two_times(num)
                 num * 2
               end
 
-              two_times(2) # => 4
-              two_times(2) # => 4
+              puts two_times(2)
+              puts two_times(2)
             `}
           </code>
         </pre>
+
+        <RunButton domSelector="#idempotency" />
       </section>
 
       <section>
@@ -49,14 +52,18 @@ function ReferencialTransparency() {
         </p>
 
         <pre>
-          <code data-trim data-noescape className="language-ruby">
+          <code data-trim data-noescape className="language-ruby" id="pure-functions">
             {`
               def add(a, b)
                 a + b
               end
+
+              puts add(1, 2)
             `}
           </code>
         </pre>
+
+        <RunButton domSelector="#pure-functions" />
       </section>
 
       <section>
@@ -72,26 +79,31 @@ function ReferencialTransparency() {
         </p>
 
         <pre>
-          <code data-trim data-noescape className="language-ruby">
+          <code data-trim data-noescape className="language-ruby" id="inmutability">
             {`
               arr = [1, 2, 3]
-              arr # => [1, 2, 3]
 
-              arr.map { |num| num + 1 } # => [2, 3, 4]
-              arr # => [1, 2, 3]
+              puts arr.join(', ')
 
-              arr.map! { |num| num + 1 } # => [2, 3, 4]
-              arr # => [2, 3, 4]
+              puts arr.map { |num| num + 1 }.join(', ')
+
+              puts arr.join(', ')
+
+              puts arr.map! { |num| num + 1 }.join(', ')
+
+              puts arr.join(', ')
             `}
           </code>
         </pre>
+
+        <RunButton domSelector="#inmutability" />
       </section>
 
       <section>
         <h4>Example</h4>
 
         <pre>
-          <code data-trim data-noescape className="language-ruby">
+          <code data-trim data-noescape className="language-ruby" id="class-example">
             {`
               class Account
                 def initialize
@@ -104,18 +116,21 @@ function ReferencialTransparency() {
               end
 
               my_account = Account.new
-              my_account.deposit(100) # => 200
-              my_account.deposit(100) # => 300
+
+              puts my_account.deposit(100)
+              puts my_account.deposit(100)
             `}
           </code>
         </pre>
+
+        <RunButton domSelector="#class-example" />
       </section>
 
       <section>
         <h4>Example</h4>
 
         <pre>
-          <code data-trim data-noescape className="language-ruby">
+          <code data-trim data-noescape className="language-ruby" id="func-example">
             {`
               def deposit(balance, amount)
                 balance + amount
@@ -123,32 +138,41 @@ function ReferencialTransparency() {
 
               my_balance = 100
               my_new_balance = deposit(my_balance, 100)
+
+              puts my_new_balance
             `}
           </code>
         </pre>
+
+        <RunButton domSelector="#func-example" />
       </section>
 
       <section>
         <h4>Example</h4>
 
         <pre>
-          <code data-trim data-noescape className="language-ruby">
+          <code data-trim data-noescape className="language-ruby" id="class-example-2">
             {`
               class Account
+                attr_reader :balance
+
                 def initialize(balance = 100)
                   @balance = balance
                 end
 
                 def deposit(amount)
-                  new(@balance + amount)
+                  Account.new(@balance + amount)
                 end
               end
 
               my_account = Account.new
-              my_new_account = my_account.deposit(100)
+              puts my_new_account = my_account.deposit(100)
+              puts my_new_account.balance
             `}
           </code>
         </pre>
+
+        <RunButton domSelector="#class-example-2" />
       </section>
     </section>
   );

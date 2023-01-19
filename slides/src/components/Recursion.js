@@ -1,4 +1,5 @@
 import React from 'react';
+import RunButton from './ruby/RunButton';
 
 function Recursion() {
   return (
@@ -15,16 +16,21 @@ function Recursion() {
         </p>
 
         <pre>
-          <code data-trim data-noescape className="language-ruby">
+          <code data-trim data-noescape className="language-ruby" id="factorial">
             {`
               def factorial(n)
                 return 1 if n <= 1
 
                 n * factorial(n-1)
               end
+
+              puts factorial(5)
+              puts factorial(10000)
             `}
           </code>
         </pre>
+
+        <RunButton domSelector="#factorial" />
       </section>
 
       <section>
@@ -36,23 +42,28 @@ function Recursion() {
         </p>
 
         <pre>
-          <code data-trim data-noescape className="language-ruby">
+          <code data-trim data-noescape className="language-ruby" id="factorial2">
             {`
               def factorial(n, acc=1)
                 return acc if n <= 1
 
                 factorial(n - 1, acc * n)
               end
+
+              puts factorial(5)
+              puts factorial(10000)
             `}
           </code>
         </pre>
+
+        <RunButton domSelector="#factorial2" />
       </section>
 
       <section>
         <h4>Recursion - Tail call recursive</h4>
 
         <pre>
-          <code data-trim data-noescape className="language-ruby">
+          <code data-trim data-noescape className="language-ruby" id="tail-call-optimization">
             {`
               RubyVM::InstructionSequence.compile_option = {
                 tailcall_optimization: true,
@@ -61,6 +72,8 @@ function Recursion() {
             `}
           </code>
         </pre>
+
+        <RunButton domSelector="#tail-call-optimization" />
       </section>
 
       <section>

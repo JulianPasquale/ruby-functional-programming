@@ -1,4 +1,5 @@
 import React from 'react';
+import RunButton from './ruby/RunButton';
 
 function LazyEvaluation() {
   return (
@@ -19,7 +20,7 @@ function LazyEvaluation() {
         </p>
 
         <pre>
-          <code data-trim data-noescape className="language-ruby">
+          <code data-trim data-noescape className="language-ruby" id="enumerator">
             {`
               fib = Enumerator.new do |yielder|
                 a = b = 1
@@ -29,10 +30,12 @@ function LazyEvaluation() {
                 end
               end
               
-              p fib.take(10) # => [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+              puts fib.take(10) # => [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
             `}
           </code>
         </pre>
+
+        <RunButton domSelector="#enumerator" />
       </section>
 
       <section>
@@ -45,16 +48,22 @@ function LazyEvaluation() {
         </p>
 
         <pre>
-          <code data-trim data-noescape className="language-ruby">
+          <code data-trim data-noescape className="language-ruby" id="lazy">
             {`
-              (1..).select(&:odd?) # This will take forever
+              # (1..).select(&:odd?) # This will take forever
 
               lazy_enum = (1..).lazy.select(&:odd?)
 
               another_lazy_enum = (1..).lazy.select(&:odd?).take_while { |num| num < 20 }
+
+              puts lazy_enum.take(10)
+
+              puts another_lazy_enum.force
             `}
           </code>
         </pre>
+
+        <RunButton domSelector="#lazy" />
       </section>
 
       <section>
