@@ -38,7 +38,8 @@ function App() {
         <div className="container-fluid w-full flex flex-wrap items-center justify-between px-6">
           <div className="container-fluid">
             <a className="flex items-center mt-2 lg:mt-0 mr-1" href="https://www.rootstrap.com">
-              <img src="https://www.rootstrap.com/wp-content/uploads/2022/02/RS-logo-white.svg" alt="Rootstrap Home page" style={{ height: '1.2rem' }} loading="lazy" />
+              <img src={`${process.env.PUBLIC_URL}/RootstrapLogo.svg`} alt="Rootstrap logo" style={{ height: '1.2rem', marginRight: '10px' }} loading="lazy" />
+              <img src={`${process.env.PUBLIC_URL}/RootstrapTitle.svg`} alt="Rootstrap" style={{ height: '1.2rem' }} loading="lazy" />
             </a>
           </div>
         </div>
